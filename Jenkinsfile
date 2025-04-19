@@ -15,7 +15,7 @@ pipeline {
         stage('Deploy') {
             steps {
                 echo 'Deploying....'
-            }
+            }  }
         }
 Post{
 always{
@@ -23,5 +23,5 @@ emailext body : 'Summary' , subject : 'Pipeline status' , to : 'Sagarw094@gmail.
 }
 
 }
-    }
+    
 }
