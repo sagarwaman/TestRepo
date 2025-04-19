@@ -23,10 +23,8 @@ public class ReadData {
 		int cell = sheet.getRow(1).getLastCellNum();
 		
 		System.out.println(rows +"  "+cell);
-		
 
-		System.out.println("End of excel");
-		System.out.println("End of excel");
+		System.out.println("End of program");
 		
 		
 	}
