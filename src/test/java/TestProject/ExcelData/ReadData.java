@@ -24,8 +24,6 @@ public class ReadData {
 		
 		System.out.println(rows +"  "+cell);
 		
-		System.out.println("End of excel");
-		
 		
 	}
 	
